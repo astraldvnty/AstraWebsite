@@ -1,35 +1,20 @@
 /* bg */
 #main {
-    position:fixed;
-    width:100vw;
-    height:100vh;
-    top:0px;
-    left:0px;
-    background: linear-gradient(300deg,#22552d,#3a6f45,#492a90,#ab1921,#7a99ba,#d6d56e);
-    background-size: 240% 240%;
-    animation: gradient-animation 14s ease infinite;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
     color: #000;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    letter-spacing: -1px;
     /*wickmel: activated;*/
 }
 
-@keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
 body {
-    font-family: "Outfit", sans-serif;
-    background-color: #000;
-    font-size: 24px;
+    font-family: "Funnel Sans", monospace;
+    background: url("https://t4.ftcdn.net/jpg/03/02/59/19/360_F_302591959_g755Mw2RHeZ2ne98RtA7TvmpMvHdqDgM.jpg");
+    background-size: cover;
+    font-size: 19px;
 }
 
 .textinmain {
@@ -39,8 +24,9 @@ body {
 }
 
 #title {
-    font-size: 60px;
-    text-align: center;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 20px;
     font-weight: bold;
 }
 
@@ -49,7 +35,7 @@ body {
 }
 
 .subtitle {
-    font-size: 47px;
+    font-size: 28px;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -57,7 +43,7 @@ body {
 }
 
 .subtitle2, .subtitle3 {
-    font-size: 32px;
+    font-size: 20px;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -68,13 +54,10 @@ body {
 }
 
 
-#info {
-    align-self: center;
-    margin-left: 20vw;
-}
 #leftdiv, #rightdiv {
-    width: 30vw;
-    text-align: center;
+    align-self: right;
+    text-align: right;
+    margin-right: 20px;
 }
 
 .link {
@@ -82,22 +65,31 @@ body {
     text-decoration: underline;
 }
 
+.separator {
+    height: 10px;
+    border: rgba(0,0,0,0.8) 8px none;
+    border-top-style: double;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
 .minitext {
-    font-size: 18px;
+    font-size: 14px;
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
-    text-align: center;
+    text-align: right;
     height: 2vh;
 }
 
 #infohover {
-    border: #000 4px solid;
-    color: white;
-    width: 90vw;
+    border: #000 4px none;
+    color: black;
     height: 5vh;
-    text-align: center;
-    margin-left: 5vw;
+    text-align: right;
+    margin-left: 50vw;
+    margin-right: 20px;
 }
 
 #games, #music, .minitext {
@@ -106,14 +98,19 @@ body {
 
 #games, #music {
     display: flexbox;
-    width: 8vw;
-    margin-left: 11.5vw;
+    text-align: right;
+}
+
+#leftandright {
+    display: flex;
+    align-items: right;
+    justify-content: right;
 }
 
 button{
     color: white;
     background-color: rgba(0,0,0,0);
-    font-family: "Outfit", sans-serif;
+    font-family: "Funnel Sans", sans-serif;
     font-size: 20px;
     border: 0px;
     font-weight: bold;
@@ -121,8 +118,9 @@ button{
 
 #randomfactdiv {
     margin-top: 5vh;
-    align-items: center;
-    text-align: center;
+    align-items: right;
+    margin-right: 20px;
+    text-align: right;
 }
 
 #randomfact {

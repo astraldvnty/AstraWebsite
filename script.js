@@ -44,16 +44,19 @@ var funFacts = [
     'i speak portuguese, english and a tiny bit of french.',
     "i've been making music for more than 5 years.",
     "i've been playing geometry dash for like 8 years at this point and i'm somehow not bored of it.",
+    "i've built a LOT of geometry dash levels in my life.",
     'astra = jersey club, sage = soulhop, eleventh = anything else.',
     "my favorite incremental of all time is called dodecadragons.",
     "i've played an unhealthy amount of minecraft in my life.",
     "i absolutely despise any sort of seafood.",
     "the song playing right now is an extended version of 1:47 of rise by tyler the creator.",
     'my favorite tyler song is ifhy.',
-    "i like cherry bomb. that's it.",
+    "cherry bomb is my favorite album.",
+    "chromakopia is kinda goated????",
     "i've made fnf music before and it's not something i like to remember LOL.",
     "my life goal is to know a lot of programming languages, so i can work on both websites (backend or frontend) and also make games.",
-    "there is a specific combination of keys you can press on this website... however that combination doesn't do anything."
+    "there is a specific combination of keys you can press on this website... however that combination doesn't do anything.",
+    "i am one of the two people who worked on the decayed minecraft arg."
 ]
 function genFunFact(){
     var ran = Math.random()
