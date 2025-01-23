@@ -12,7 +12,7 @@
 
 body {
     font-family: "Funnel Sans", monospace;
-    background: url("https://t4.ftcdn.net/jpg/03/02/59/19/360_F_302591959_g755Mw2RHeZ2ne98RtA7TvmpMvHdqDgM.jpg");
+    background: url("img/bg1.jpg");
     background-size: cover;
     font-size: 19px;
 }
@@ -23,7 +23,7 @@ body {
     margin-bottom: 0px;
 }
 
-#title {
+#title, #titleweird {
     font-size: 40px;
     text-align: right;
     margin-right: 20px;
@@ -60,7 +60,7 @@ body {
     margin-right: 20px;
 }
 
-.link {
+.link, .link2 {
     font-weight: 900;
     text-decoration: underline;
 }
@@ -68,6 +68,14 @@ body {
 .separator {
     height: 10px;
     border: rgba(0,0,0,0.8) 8px none;
+    border-top-style: double;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.separator2 {
+    height: 10px;
+    border: rgba(255,255,255,0.8) 8px none;
     border-top-style: double;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -107,7 +115,7 @@ body {
     justify-content: right;
 }
 
-button{
+button {
     color: white;
     background-color: rgba(0,0,0,0);
     font-family: "Funnel Sans", sans-serif;
@@ -128,6 +136,19 @@ button{
 }
 
 /* unvisited link */
-a:link, a:visited, a:hover, a:active {
+.link:link, .link:visited, .link:hover, .link:active {
     color: black;
+}
+
+.link2:link, .link2:visited, .link2:hover, .link2:active {
+    color: white;
+}
+
+#weird {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
 }
